@@ -50,13 +50,13 @@ Someday, I may be able to transplant real lighting devices to computers.
 
 ## component
 
-Component is a cmake project that contains `component.mk` and `CMakeLists.txt` files.
+Component is a cmake project that contains `CMakeLists.txt` files.
 
 Component is stored in the component directory by default.
 
 All components are compiled into a static library and linked to 24K-Effect executable. You can extend the function of 24K through component.
 
-A minimum component.mk file is as follows:
+A minimum CMakeLists.txt file is as follows:
 
 ```txt
 cmake_minimum_required(VERSION 3.5)
